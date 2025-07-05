@@ -15,39 +15,38 @@
   <nav>
     <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#">Economy</a></li>
-      <li><a href="#">Education</a></li>
-      <li><a href="#">Environment</a></li>
-      <li><a href="#">Public Safety</a></li>
+      <li><a href="#economy-metrics">Economy</a></li>
+      <li><a href="#education-metrics">Education</a></li>
+      <li><a href="#environment-metrics">Environment</a></li>
+      <li><a href="#demographics-metrics">Demographics</a></li>
     </ul>
   </nav>
 
   <main>
+    <!-- Dynamic Weather -->
+    
+
+    <!-- Civic Highlight -->
     <section class="highlight">
-      <h2>Top Highlight</h2>
-      <p>🏆 Westfield ranks #1 in Indiana for quality of life!</p>
+      <h2>🏅 Top Highlight</h2>
+      <p>Westfield ranks among the top cities in Indiana for quality of life.</p>
     </section>
 
-    <section class="metrics">
-      <div class="metric-card">
-        <h3>📈 Median Income</h3>
-        <p>$105,000</p>
-      </div>
-      <div class="metric-card">
-        <h3>🎓 Graduation Rate</h3>
-        <p>97%</p>
-      </div>
-      <div class="metric-card">
-        <h3>🌳 Parkland per Resident</h3>
-        <p>20 acres</p>
-      </div>
+    <!-- Economy Section -->
+    <section class="metrics-section">
+      <h2>Metrics</h2>
+<div class="metrics" id="economy-metrics"></div>
+<div class="metrics" id="education-metrics"></div>
+<div class="metrics" id="environment-metrics"></div>
+<div class="metrics" id="demographics-metrics"></div>
     </section>
+
   </main>
 
   <footer>
     <p>&copy; 2025 Westfield Metrics. Built with ❤️ by residents.</p>
   </footer>
 
-  <script src="app.js"></script>
+  <script type="module" src="scripts/app.js"></script>
 </body>
 </html>

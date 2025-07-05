@@ -48,16 +48,18 @@ main {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  justify-content: center;
+  justify-content: left;
+  padding: 16px 0px;
 }
 
 .metric-card {
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  padding: 1rem;
-  width: 200px;
+  padding: 16px 16px;
+  width: fit-content;
   text-align: center;
+  margin-right: 16px;
 }
 
 footer {
@@ -65,4 +67,58 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
   color: #666;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin: 0px;
+}
+
+.metric-label {
+  font-size: 1rem;          /* Normal heading size */
+  font-weight: 400;         /* Medium boldness for label */
+  margin-bottom: 0.25rem;
+  color: #444;
+}
+
+.metric-value {
+  font-size: 20px;        /* Larger font for emphasis */
+  font-weight: 700;         /* Bold for value */
+  margin: 0;
+  color: #111;     
+  padding: 8px;         /* High contrast */
+}
+
+.metric-section {
+    padding: 16px;
+}
+
+.metric-card {
+    margin-bottom: 16px;
+}
+
+#all-metrics {
+    display: flex;
+    flex-direction: column;
+}
+
+.metric-section {
+  margin-bottom: 2.5rem;
+}
+
+.metric-card-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.metric-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
 }
